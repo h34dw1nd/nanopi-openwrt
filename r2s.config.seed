@@ -20,6 +20,7 @@ CONFIG_PACKAGE_luci-app-godproxy=y
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
 CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-nlbwmon=y
+CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-openvpn-server=y
 CONFIG_PACKAGE_luci-app-passwall=y
@@ -100,8 +101,3 @@ CONFIG_PACKAGE_luci-app-v2ray-server=y
 CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_xray-geodata=y
 CONFIG_PACKAGE_xray-plugin=y
-
-CONFIG_PACKAGE_kmod-tun=m
-
-CONFIG_PACKAGE_kmod-ath9k-htc=y
-
